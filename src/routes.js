@@ -6,6 +6,4 @@ const routes = new Router();
 
 routes.post('/users', UserController.store);
 
-// return res.json();
-
 export default routes;
