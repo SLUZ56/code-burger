@@ -43,7 +43,9 @@ export default (req, res, next) => {
       }
 
       req.userId = decoded.id;
-      return next(); 
+      req.userName = decoded.name;
+
+      return next();
     });
   } catch (error) {
     return res.status(401).json({ error: 'Token is invalid' });
