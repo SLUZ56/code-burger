@@ -1,4 +1,4 @@
 {
-    'semicolon': false,
-    'singleQuote': true,
+  semicolon: false,
+  singleQuote: true
 }
