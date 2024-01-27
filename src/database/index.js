@@ -25,7 +25,7 @@ class Database {
 
   mongo() {
     this.mongoConnection = mongoose.connect(
-      'mongodb://127.0.0.1:27017/codeburguer',
+      'mongodb://127.0.0.1:27017/codeburger',
     );
   }
 }
